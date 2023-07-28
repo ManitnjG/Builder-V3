@@ -7,7 +7,7 @@ env:
     LUNCH_COMBO: droidx_${DEVICE}-userdebug
     OUTPUT: D*.zip
     CLO: 1:X01BD
-    CLO_1: ENCRYPTED[7c74c3057d5e4f68fde1f0aecf0b9926cfeee7e4dacc20c15e471ec668df8c494e577fb09dd7b77c1e1442391cac554b]
+    CLO_1: ENCRYPTED[af8cf466aad0940d13b2ca8cbe87b7c499e164092675666d24bff8e19e540fcb5bafb7c4c7aa94812c8b5e454a639d7b]
     URI: #https://sourceforge.net/projects/fleur/files/ccache/Superior/ccache.tar.gz/download
     ROM_U: 0
     

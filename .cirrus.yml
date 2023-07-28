@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/SuperiorOS/manifest.git -b thirteen
     DEVICE: X01BD
     OEM: asus
-    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifestt-1
+    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
     TARGET: bacon
     LUNCH_COMBO: superior_${DEVICE}-userdebug
     OUTPUT: S*.zip

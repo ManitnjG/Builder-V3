@@ -6,10 +6,10 @@ env:
     TARGET: bacon
     LUNCH_COMBO: droidx_${DEVICE}-userdebug
     OUTPUT: D*.zip
-    CLO: 1:X01BD
-    CLO_1: ENCRYPTED[af8cf466aad0940d13b2ca8cbe87b7c499e164092675666d24bff8e19e540fcb5bafb7c4c7aa94812c8b5e454a639d7b]
+    CLO: #1:X01BD
+    CLO_1: #ENCRYPTED[af8cf466aad0940d13b2ca8cbe87b7c499e164092675666d24bff8e19e540fcb5bafb7c4c7aa94812c8b5e454a639d7b]
     URI: https://sourceforge.net/projects/ccachex01bd/files/droid/ccache.tar.gz/download
-    ROM_U: 0
+    ROM_U: 1
     
 task:
   name: "build"

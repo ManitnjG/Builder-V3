@@ -1,15 +1,15 @@
 env:
-    MANIFEST: https://github.com/VoltageOS/manifest.git -b 13
+    MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13
     DEVICE: X01BD
     OEM: asus
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest
     TARGET: bacon
-    LUNCH_COMBO: voltage_${DEVICE}-userdebug
-    OUTPUT: v*.zip
-    CLO: #1:X01BD
-    CLO_1: #ENCRYPTED[af8cf466aad0940d13b2ca8cbe87b7c499e164092675666d24bff8e19e540fcb5bafb7c4c7aa94812c8b5e454a639d7b]
-    URI: https://sourceforge.net/projects/ccachex01bd/files/voltage/ccache.tar.gz/download
-    ROM_U: 1
+    LUNCH_COMBO: derp_${DEVICE}-userdebug
+    OUTPUT: d*.zip
+    CLO: 1:X01BD
+    CLO_1: ENCRYPTED[af8cf466aad0940d13b2ca8cbe87b7c499e164092675666d24bff8e19e540fcb5bafb7c4c7aa94812c8b5e454a639d7b]
+    URI: #https://sourceforge.net/projects/ccachex01bd/files/voltage/ccache.tar.gz/download
+    ROM_U: 0
     
 task:
   name: "build"

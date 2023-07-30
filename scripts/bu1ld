@@ -6,6 +6,8 @@ export USE_CCACHE=1
 ccache -M 150G
 ccache -o compression=true
 ccache -z
+rm -rf frameworks/base
+git clone https://github.com/ManitnjG/frameworks_base.git -b 13 frameworks/base
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
 m $TARGET -j8 

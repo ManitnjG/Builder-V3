@@ -2,7 +2,7 @@ env:
     MANIFEST: https://github.com/DerpFest-AOSP/manifest.git -b 13
     DEVICE: X01BD
     OEM: asus
-    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest
+    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
     TARGET: derp
     LUNCH_COMBO: derp_${DEVICE}-userdebug
     OUTPUT: d*.zip

@@ -3,13 +3,17 @@ cd ~/work
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
-ccache -M 120G
+ccache -M 150G
 ccache -o compression=true
 ccache -z
 
+cd frameworks/base/core/res/res/values
+rm -rf derp_config.xml
+wget https://raw.githubusercontent.com/ManitnjG/frameworks_base/13/core/res/res/values/derp_config.xml
+
+cd ~/work
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 export ALLOW_MISSING_DEPENDENCIES=true 
-
 
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"

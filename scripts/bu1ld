@@ -6,9 +6,6 @@ export USE_CCACHE=1
 ccache -M 120G
 ccache -o compression=true
 ccache -z
-cd frameworks/base/core/res/res/values
-rm -rf derp_config.xml
-wget https://github.com/ManitnjG/ex/blob/main/derp_config.xml
 
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 export ALLOW_MISSING_DEPENDENCIES=true 

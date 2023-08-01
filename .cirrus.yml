@@ -3,7 +3,7 @@ env:
     DEVICE: X01BD
     OEM: asus
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
-    TARGET: X01BD
+    TARGET: bacon
     LUNCH_COMBO: cherish_${DEVICE}-userdebug
     OUTPUT: C*.zip
     CLO: 1:X01BD

@@ -13,4 +13,4 @@ export ALLOW_MISSING_DEPENDENCIES=true
 
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
-mka $TARGET -j8 & sleep 101
+brunch $TARGET -j8 & sleep 101

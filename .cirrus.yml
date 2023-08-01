@@ -3,7 +3,7 @@ env:
     DEVICE: X01BD
     OEM: asus
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
-    TARGET: derp
+    TARGET: bacon
     LUNCH_COMBO: derp_${DEVICE}-userdebug
     OUTPUT: D*.zip
     CLO: #1:X01BD

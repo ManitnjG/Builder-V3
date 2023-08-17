@@ -2,7 +2,7 @@
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
-ccache -M 170G
+ccache -M 100G
 ccache -o compression=true
 ccache -z
 
@@ -13,4 +13,4 @@ export WITH_GMS=true
 export TARGET_CORE_GMS=true
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
-mka "$TARGET"
+mka "$TARGET" -j7

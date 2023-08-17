@@ -2,16 +2,13 @@
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
-ccache -M 100G
+ccache -M 160G
 ccache -o compression=true
 ccache -z
 
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 export ALLOW_MISSING_DEPENDENCIES=true 
-export RISING_MAINTAINER="ManiGtnj"
-export WITH_GMS=true
-export TARGET_CORE_GMS=true
 
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
-mka "$TARGET" -j7
+mka "$TARGET" -j8 & sleep 102m

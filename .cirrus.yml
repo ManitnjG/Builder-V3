@@ -1,15 +1,14 @@
 env:
-    MANIFEST: https://github.com/RisingTechOSS/android -b thirteen --git-lfs
-    DEVICE: X01BD
+    MANIFEST: https://github.com/PixelExperience/manifest -b thirteen-plus
     OEM: asus
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
     TARGET: bacon
-    LUNCH_COMBO: lineage_${DEVICE}-userdebug
-    OUTPUT: r*.zip
-    CLO: #1:X01BD
-    CLO_1: #ENCRYPTED[7c74c3057d5e4f68fde1f0aecf0b9926cfeee7e4dacc20c15e471ec668df8c494e577fb09dd7b77c1e1442391cac554b]
-    URI: https://sourceforge.net/projects/ccachex01bd/files/ccache.tar.gz/download
-    ROM_U: 1
+    LUNCH_COMBO: aosp_${DEVICE}-userdebug
+    OUTPUT: P*.zip
+    CLO: 1:X01BD
+    CLO_1: ENCRYPTED[7c74c3057d5e4f68fde1f0aecf0b9926cfeee7e4dacc20c15e471ec668df8c494e577fb09dd7b77c1e1442391cac554b]
+    URI: #https://sourceforge.net/projects/ccachex01bd/files/ccache.tar.gz/download
+    ROM_U: 0
  
 task:
   name: "build"

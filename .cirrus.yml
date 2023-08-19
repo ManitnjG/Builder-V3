@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/PixelExperience/manifest -b thirteen-plus
+    MANIFEST: https://github.com/PixelExperience/manifest -b thirteen 
     OEM: asus
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest
     TARGET: bacon

@@ -1,5 +1,5 @@
 env:
-    MANIFEST: repo init -u https://github.com/alphadroid-project/manifest -b alpha-13 --git-lfs
+    MANIFEST: https://github.com/alphadroid-project/manifest -b alpha-13 --git-lfs
     OEM: asus
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
     TARGET: bacon

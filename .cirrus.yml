@@ -1,8 +1,8 @@
 env:
     MANIFEST: https://github.com/Evolution-X/manifest -b udc
     OEM: asus
-    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
-    TARGET: bacon
+    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1 -b evo
+    TARGET: evolution
     LUNCH_COMBO: evolution_X01BD-userdebug
     OUTPUT: e*.zip
     CLO: 1:X01BD

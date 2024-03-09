@@ -1,10 +1,10 @@
 env:
-    MANIFEST: https://github.com/Evolution-X/manifest -b udc
+    MANIFEST: https://github.com/SuperiorOS/manifest.git -b fourteen
     OEM: asus
-    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1 -b evo
-    TARGET: evolution
-    LUNCH_COMBO: evolution_X01BD-userdebug
-    OUTPUT: e*.zip
+    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1 -b sup
+    TARGET: bacon
+    LUNCH_COMBO: superior_X01BD-userdebug
+    OUTPUT: s*.zip
     CLO: 1:X01BD
     CLO_1: ENCRYPTED[7c74c3057d5e4f68fde1f0aecf0b9926cfeee7e4dacc20c15e471ec668df8c494e577fb09dd7b77c1e1442391cac554b]
     URI: #https://sourceforge.net/projects/ccachex01bd/files/alpha/ccache.tar.gz/download

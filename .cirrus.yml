@@ -1,7 +1,7 @@
 env:
     MANIFEST: https://github.com/ProjectMatrixx/android.git -b 14.0 --git-lfs
     OEM: asus
-    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1 -b mat
+    LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
     TARGET: bacon
     LUNCH_COMBO: lineage_X01BD-userdebug
     OUTPUT: M*.zip

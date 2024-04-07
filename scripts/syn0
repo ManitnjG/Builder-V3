@@ -12,7 +12,7 @@ sync() {
         echo "Repo sync completed successfully."
         echo "Cloning additional repository..."
         rm -rf vendor/lineage
-        git clone https://github.com/ManitnjG/android_vendor_lineage -b 14.0 vendor/lineage
+        git clone https://github.com/ManitnjG/android_vendor_lineage1 -b lineage-21.0 vendor/lineage
         if [ $? -eq 0 ]; then
             echo "Additional repository cloned successfully."
         else

@@ -1,13 +1,30 @@
 #!/bin/bash
+
 sync() {
-mkdir -p ~/work
-cd ~/work
-repo init --depth=1 -u $MANIFEST
-git clone $LOCAL_MANIFEST  -b los .repo/local_manifests
-repo sync -c -j8 --force-sync --optimized-fetch --no-tags --no-clone-bundle
- rm -rf vendor/lineage
-git clone https://github.com/ManitnjG/android_vendor_lineage -b 14.0 vendor/lineage
+    mkdir -p ~/work
+    cd ~/work
+    repo init --depth=1 -u $MANIFEST
+    git clone $LOCAL_MANIFEST -b los .repo/local_manifests
+    repo sync -c -j8 --force-sync --optimized-fetch --no-tags --no-clone-bundle
+
+    # After repo sync completes, clone additional repository
+    if [ $? -eq 0 ]; then
+        echo "Repo sync completed successfully."
+        echo "Cloning additional repository..."
+        rm -rf vendor/lineage
+        git clone https://github.com/ManitnjG/android_vendor_lineage -b 14.0 vendor/lineage
+        if [ $? -eq 0 ]; then
+            echo "Additional repository cloned successfully."
+        else
+            echo "Failed to clone additional repository."
+            exit 1
+        fi
+    else
+        echo "Repo sync failed. Exiting..."
+        exit 1
+    fi
 }
 
 echo "Syncing Rom and Device Sources..."
 sync
+

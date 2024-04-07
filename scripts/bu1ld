@@ -10,7 +10,7 @@ ccache -z
 
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 export ALLOW_MISSING_DEPENDENCIES=true 
-
+croot
 . build/envsetup.sh
 lunch "$LUNCH_COMBO"
 mka "$TARGET" & sleep 101m

@@ -3,7 +3,7 @@ env:
     OEM: asus
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
     TARGET: bacon
-    LUNCH_COMBO: lineage_X01BD-userdebug
+    LUNCH_COMBO: lunch lineage_X01BD-userdebug
     OUTPUT: l*.zip
     CLO: 1:X01BD
     CLO_1: ENCRYPTED[7c74c3057d5e4f68fde1f0aecf0b9926cfeee7e4dacc20c15e471ec668df8c494e577fb09dd7b77c1e1442391cac554b]

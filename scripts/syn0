@@ -3,7 +3,7 @@ sync() {
 mkdir -p ~/work
 cd ~/work
 repo init --depth=1 -u $MANIFEST
-git clone $LOCAL_MANIFEST  -b mat .repo/local_manifests
+git clone $LOCAL_MANIFEST  -b los .repo/local_manifests
 repo sync -c -j8 --force-sync --optimized-fetch --no-tags --no-clone-bundle
  rm -rf vendor/lineage
 git clone https://github.com/ManitnjG/android_vendor_lineage -b 14.0 vendor/lineage

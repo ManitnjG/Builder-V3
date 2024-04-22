@@ -13,5 +13,5 @@ export TARGET_RELEASE=ap1a
 
 . build/envsetup.sh
 croot
-lunch "$LUNCH_COMBO"
+riseup X01BD userdebug
 m -j4 & sleep 101m

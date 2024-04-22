@@ -14,4 +14,4 @@ export ALLOW_MISSING_DEPENDENCIES=true
 . build/envsetup.sh
 croot
 lunch "$LUNCH_COMBO"
-m "$TARGET" & sleep 101m
+m -j4 & sleep 101m

@@ -14,5 +14,5 @@ export TARGET_RELEASE=ap1a
   git clone https://github.com/ManitnjG/android_vendor_lineag -b fourteen vendor/lineage ;\
 . build/envsetup.sh
 croot
-lineage_X01BD-ap1a-userdebug
+lunch lineage_X01BD-ap1a-userdebug 
 mka bacon & sleep 101m

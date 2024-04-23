@@ -11,8 +11,7 @@ sync() {
     if [ $? -eq 0 ]; then
         echo "Repo sync completed successfully."
         echo "Cloning additional repository..."
-        rm -rf vendor/evolution
-        git clone https://github.com/Evolution-X/vendor_evolution -b u vendor/evolution
+
         if [ $? -eq 0 ]; then
             echo "Additional repository cloned successfully."
         else

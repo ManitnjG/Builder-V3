@@ -1,2 +1,2 @@
 #!/bin/bash
-export RANDOM=20484
+export RANDOM=15967

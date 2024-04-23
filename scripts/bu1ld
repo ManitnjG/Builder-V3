@@ -13,5 +13,5 @@ export TARGET_RELEASE=ap1a
 
 . build/envsetup.sh
 croot
-riseup X01BD userdebug
-m -j4 & sleep 101m
+lineage-X01BD_userdebug
+mka bacon & sleep 101m

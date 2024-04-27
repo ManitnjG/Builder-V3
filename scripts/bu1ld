@@ -10,6 +10,8 @@ ccache -z
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
 export ALLOW_MISSING_DEPENDENCIES=true 
 export TARGET_RELEASE=ap1a
+rm -rf vendor/sakura
+git clone https://github.com/ManitnjG/vendor_sakura -b 14 vendor/sakura
 . build/envsetup.sh
 lunch lineage_X01BD-ap1a-userdebug &&
 mka bacon

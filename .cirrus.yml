@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/ProjectSakura/android.git -b 14 --git-lfs
+    MANIFEST: https://github.com/RisingTechOSS/android -b fourteen --git-lfs
     OEM: asus
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
     TARGET: 

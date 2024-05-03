@@ -1,6 +1,5 @@
 env:
-    MANIFEST: https://github.com/VoltageOS/manifest.git -b 14 --git-lfs
-    OEM: asus
+    MANIFEST: https://github.com/SuperiorOS/manifest.git -b fourteen --git-lfs
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
     TARGET: 
     LUNCH_COMBO: 

@@ -1,5 +1,5 @@
 env:
-    MANIFEST: https://github.com/SuperiorOS/manifest.git -b fourteen --git-lfs
+    MANIFEST: repo init -u https://github.com/RisingTechOSS/android -b fourteen --git-lfs
     LOCAL_MANIFEST: https://github.com/ManitnjG/local_manifest-1
     TARGET: 
     LUNCH_COMBO: 

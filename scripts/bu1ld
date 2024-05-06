@@ -4,7 +4,7 @@ cd ~/work
 export CCACHE_DIR=/tmp/ccache
 export CCACHE_EXEC=$(which ccache)
 export USE_CCACHE=1
-ccache -M 10G
+ccache -M 100G
 ccache -o compression=true
 ccache -z
 export BUILD_BROKEN_MISSING_REQUIRED_MODULES=true
@@ -13,4 +13,4 @@ export TARGET_RELEASE=ap1a
 rm -rf vendor/lineage
 git clone https://github.com/ManitnjG/android_vendor_lineage -b 14.0 vendor/lineage
 . build/envsetup.sh
-brunch X01BD
+brunch X01BD & sleep 80m
